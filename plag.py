@@ -17,7 +17,7 @@ if __name__ == "__main__":
         #of the first Y results (parallelism preferrable, bandwidth is not a big problem,
         #the old http protocol is)
         ssearch = ''.join(splitted)
-        print ssearch
+        print ssearch # for testing
         g = pygoogle(ssearch)
         g.pages = 5
         # g.get_result_count() will give the number of results
